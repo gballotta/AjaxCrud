@@ -79,6 +79,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		$("#statusmessage").html('Operazione in corso...');
 		$("#statuspanel").slideToggle(200);
+		$("#statusmessage").load('{{ url("people/index") }}');
 	})
 });
 

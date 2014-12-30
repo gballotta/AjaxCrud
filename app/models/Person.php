@@ -3,11 +3,14 @@
 class Person extends \Eloquent {
 
 	// Add your validation rules here
-	public static $rules = [
-		// 'title' => 'required'
-	];
+	public static $rules = array(
+		'nome' => 'required',
+		'cognome' => 'required',
+		'email' => 'required|email',
+		'livello' => 'required|int'
+	);
 
 	// Don't forget to fill this array
-	protected $fillable = [];
+	protected $fillable = array('nome', 'cognome', 'email', 'livello');
 
 }

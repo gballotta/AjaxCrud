@@ -1,1 +1,1 @@
-C:\xampp\htdocs\AjaxCrud\app/views/people/index.blade.php
+<p>Nuovo record creato {{ Input::get('cognome') }}</p>
