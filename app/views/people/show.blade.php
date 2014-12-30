@@ -1,0 +1,1 @@
+C:\xampp\htdocs\AjaxCrud\app/views/people/show.blade.php
